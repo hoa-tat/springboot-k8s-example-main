@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: user-app-container
-          image: 'user-newapp:2.0'
+          image: 'oliver273/springboot-k8s-demo'
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 9191
